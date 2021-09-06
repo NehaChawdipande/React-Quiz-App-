@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Home from './components/Home';
+import Quiz from './components/Quiz';
+import Result from './components/Result';
+import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+      <Switch>
+        <Route exact path="/">
+          <Redirect to="/Home"/>
+        </Route>
+        <Route path="/Home" component={Home}/>
+        <Route path="/Quiz" component={Quiz}/>
+        <Route path="/Result" component={Result}/>
+      </Switch>
+    </BrowserRouter>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

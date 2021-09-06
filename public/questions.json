@@ -1,0 +1,29 @@
+{
+    "questions":[
+        {
+            "id":1,
+            "question":"How many sides does a square have?",
+            "options":["Four","Six","Two","Zero"],
+            "answer":"Four"
+        },
+        {
+            "id":2,
+            "question":"What is the capital of India?",
+            "options":["Mumbai","Banglore","Delhi","Pune"],
+            "answer":"Delhi" 
+        },
+        {
+            "id":3,
+            "question":"Which animal is called the King of the Jungle?",
+            "options":["The Bear","The Tiger","The Lion","The Elephant"],
+            "answer":"The Lion"
+        },
+        {
+            "id":4,
+            "question":"How many sides does a hexagon have?",
+            "options":["Four","Six","Two","Eight"],
+            "answer":"Six"
+        }
+    ]
+
+}

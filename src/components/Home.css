@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  align-self: center;
+  margin: 20px;
+  padding: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: rgb(248, 248, 248);
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/db/34/d4/db34d40b271fb59477621550bf73ea0b.jpg");
+}
+
+.h6 {
+  display: inline;
+}
